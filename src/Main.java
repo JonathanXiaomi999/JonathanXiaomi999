@@ -1,15 +1,24 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+// click the <icon src="AllIcons.Actions.Execute"/>
+//import Printer.*;
+
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        ContohInterface Rumus = (a, b) -> a + b;
+        ContohInterface Rumus2 = (a, b) -> a * b;
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+        System.out.println(Rumus.rumus(8,2));
+        System.out.println(Rumus2.rumus(5,4));
     }
 }
+
+//        Contoh Lambda Exspression
+//        ContohInterface obj = () -> System.out.println("woi jrs!!");
+//        obj.katakanHallo();
+
+// CONTOH THREAD
+//Thread t1 = new Thread(new PrintLatters());
+//        t1.start();
+//Thread t2 = new Thread(new PrintNomor());
+//        t2.start();
+//        System.out.println();

@@ -52,13 +52,13 @@ public class GBK {
             String hasilgame = "";
 
             if (PilihanUser.equals("kertas") && PilihanBot.equals("gunting")) {
-                hasilgame = "Yah Masa kalah sama bot";
+                hasilgame = "Yah Masa kalah sama poke";
                 ScoreBot++;
             } else if (PilihanUser.equals("gunting") && PilihanBot.equals("batu")) {
-                hasilgame = "yah Masa kalah sama bot";
+                hasilgame = "yah Masa kalah sama poke";
                 ScoreBot++;
             } else if (PilihanUser.equals("batu") && PilihanBot.equals("kertas")) {
-                hasilgame = "Yah Masa kalah sama bot";
+                hasilgame = "Yah Masa kalah sama poke";
                 ScoreBot++;
             } else if (PilihanUser.equals("gunting") && PilihanBot.equals("gunting")) {
                 hasilgame = "SERI CUY";
@@ -80,6 +80,8 @@ public class GBK {
                 System.exit(0);
             }
             return hasilgame;
+
         }
+
 
 }
