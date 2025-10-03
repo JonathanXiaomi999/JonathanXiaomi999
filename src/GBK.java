@@ -12,7 +12,7 @@ public class GBK {
         while (true){
             Scanner scan = new Scanner(System.in);
             System.out.println("Score kamu : " + Scoreuser + "  Score Bot : " + ScoreBot);
-            System.out.println("Pilih sala satu : gunting/kertas/batu ");
+            System.out.print("Pilih salah satu (gunting/kertas/batu) : ");
             String PilihanUser = scan.nextLine();
             String PilihanBot = Pilahanbot();
             System.out.println("pilihan kamu : " + PilihanUser );
@@ -20,7 +20,7 @@ public class GBK {
             String hasilgame = hasilgamenya(PilihanUser,PilihanBot);
             System.out.println(hasilgame);
             System.out.println("Score kamu : " + Scoreuser + "  Score Bot : " + ScoreBot);
-            System.out.println("Mau main lagi? (Y/N)");
+            System.out.print("Mau main lagi? (Y/N)");
             String mainlagi = scan.nextLine();
 
             if (mainlagi.equals("N")) {
@@ -52,13 +52,13 @@ public class GBK {
             String hasilgame = "";
 
             if (PilihanUser.equals("kertas") && PilihanBot.equals("gunting")) {
-                hasilgame = "Yah Masa kalah sama poke";
+                hasilgame = "Yah Masa kalah sama bot";
                 ScoreBot++;
             } else if (PilihanUser.equals("gunting") && PilihanBot.equals("batu")) {
-                hasilgame = "yah Masa kalah sama poke";
+                hasilgame = "yah Masa kalah sama bot";
                 ScoreBot++;
             } else if (PilihanUser.equals("batu") && PilihanBot.equals("kertas")) {
-                hasilgame = "Yah Masa kalah sama poke";
+                hasilgame = "Yah Masa kalah sama bot";
                 ScoreBot++;
             } else if (PilihanUser.equals("gunting") && PilihanBot.equals("gunting")) {
                 hasilgame = "SERI CUY";
