@@ -8,7 +8,7 @@
 
 **Passionate about securing systems, analyzing vulnerabilities, and building robust security solutions**
 
-[🌐 Portfolio](#-my-portfolio) • [📚 Projects](#-projects) • [🔗 Connect](#-connect-with-me)
+[🌐 Portfolio](https://jonathanxiaomi999.github.io/portfolio/) • [📚 Projects](#-projects) • [🔗 Connect](#-connect-with-me)
 
 </div>
 
