@@ -40,9 +40,9 @@ Committed to staying ahead of emerging threats and continuously improving securi
 - SQL, HTML/CSS
 
 ### Certifications
-- 🏆 Certified Ethical Hacker (CEH)
-- 🏆 CompTIA Security+
-- 🏆 OSCP (Offensive Security Certified Professional)
+- 🏆 Cyber Security 101
+- 🏆 JUNIOR PENETRATION TESTER
+- 🏆 WEB APPLICATION PENTESTING
 
 ---
 
